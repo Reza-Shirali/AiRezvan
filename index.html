@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>هوش مصنوعی رضوان – آموزش هوش مصنوعی | پایتون | متلب</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./assets/styles/app.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg mt-5 justify-content-center align-items-center"
+      >
+        <div class="container-fluid container-md">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <img src="./assets/images/hum.png" alt="" />
+          </button>
+          <a href="#" class="navbar-brand text-light me-0 fs-1">AiRezvan</a>
+          <div class="d-lg-none">
+            <a href="#" class="me-3">
+              <img src="./assets/images/search.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/user.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="collapse navbar-collapse bg__dark-md justify-content-lg-between rounded-1 p-3"
+            id="navbarNav"
+          >
+            <ul
+              class="navbar-nav w-75 d-flex align-content-center justify-content-center gap-5"
+            >
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link fw-bold font__size-navbar text-secondary"
+                  >خانه</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link fw-bold font__size-navbar text-secondary"
+                  >ویدیو آموزشی</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link fw-bold font__size-navbar text-secondary"
+                  >محصولات</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link fw-bold font__size-navbar text-secondary"
+                  >تماس با ما</a
+                >
+              </li>
+            </ul>
+            <div class="d-lg-flex">
+              <a href="#" class="me-5 mt-4 mt-lg-0 d-flex align-items-center">
+                <img src="./assets/images/shoppingcart.svg" alt="" />
+              </a>
+              <a
+                href="#"
+                class="font__btn-user__lg bg__FF3C00 btn__login-hover text-light p-3 fw-bold radius d-none d-lg-inline-block"
+              >
+                <img src="./assets/images/user.png" alt="" />
+                ورود / ثبت نام
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid container-md mt-6">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div>
+              <p
+                class="text-light font-li text-center text-lg-start text__up-title"
+              >
+                آینده هوش مصنوعی را با آموزش‌های ما امروز تجربه کنید
+              </p>
+              <h1 class="font-bo z-n1 my-5 text-center text-lg-start">
+                <span class="title__main-header text-light"
+                  >دنیای آموزش های</span
+                >
+                <span class="title__main-header text__FF3C00">شگفت انگیز</span>
+              </h1>
+              <div
+                class="main__image-header position-relative d-block d-lg-none"
+              >
+                <img
+                  src="./assets/images/header_img.png"
+                  class="w-100"
+                  alt=""
+                />
+                <div
+                  class="count__user-site position-absolute d-flex justify-content-between align-items-center py-0 px-5 rounded-pill"
+                >
+                  <img src="./assets/images/users.png" alt="" />
+                  <div>
+                    <span class="text-light font-bo fs-2">500+</span>
+                    <span class="text-light font-bo fs-2">دانشجو</span>
+                  </div>
+                </div>
+              </div>
+              <p
+                class="text-secondary text-center text-lg-start font-me font-lg-li fs-3"
+              >
+                با دوره‌های تخصصی ما، به دانش و مهارت‌های هوش مصنوعی که شما را
+                به یک قدمی موفقیت نزدیک‌تر می‌کند، دست پیدا کنید.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center gap-4 mt-5">
+              <form
+                action=""
+                class="border__FF3C00 border position-relative w-50 search__form-header d-none d-lg-block"
+              >
+                <button class="border-0 bg-transparent me-2 position-absolute">
+                  <img
+                    src="./assets/images/searchnormal1.png"
+                    class="search__input-icon"
+                    alt=""
+                  />
+                </button>
+                <input
+                  type="text"
+                  class="bg-transparent w-100 h-100 border-0 input__search text-light font-me fs-3"
+                  placeholder="دوست داری چی یاد بگیری؟"
+                />
+              </form>
+              <a
+                href="#"
+                class="w-50 py-4 bg-gradient-main-site text-light font-bo fs-2 fs-lg-3 rounded-pill d-flex justify-content-center align-items-center"
+              >
+                دریافت مشاوره رایگان
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 d-none d-lg-block">
+            <div class="main__image-header position-relative">
+              <img src="./assets/images/header_img.png" class="w-100" alt="" />
+              <div
+                class="count__user-site position-absolute d-flex justify-content-between align-items-center py-0 px-5 rounded-pill"
+              >
+                <img src="./assets/images/users.png" alt="" />
+                <div>
+                  <span class="text-light font-bo fs-2 font__count-user__lg"
+                    >500+</span
+                  >
+                  <span class="text-light font-bo fs-2 font__count-user__lg"
+                    >دانشجو</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main class="mb-5 mt-5">
+      <!-- Programming Languages -->
+      <div class="container-fluid container-md">
+        <div
+          class="header__container-title d-flex justify-content-between align-items-center mb-5"
+        >
+          <div class="d-flex gap-3 justify-content-center align-items-center">
+            <div
+              class="bg-gradient-main-site rounded-circle d-flex justify-content-center align-items-center icon__header-container"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="44"
+                height="44"
+                fill="currentColor"
+                class="bi bi-robot"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.6 26.6 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.93.93 0 0 1-.765.935c-.845.147-2.34.346-4.235.346s-3.39-.2-4.235-.346A.93.93 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a25 25 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25 25 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135"
+                />
+                <path
+                  d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2zM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5"
+                />
+              </svg>
+            </div>
+            <div class="text-light">
+              <h5 class="font-bo fs-3 header__container-title-sm">
+                زبان های هوش مصنوعی
+              </h5>
+              <span class="font-li fs-4 header__container-title-sm"
+                >Programming Languages</span
+              >
+            </div>
+          </div>
+          <div>
+            <a href="#" class="d-flex justify-content-center gap-2">
+              <span class="text-light fs-3 header__container-title-sm"
+                >مشاهده همه</span
+              >
+              <i class="bi bi-arrow-left text-light"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-1 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/python-logo-only.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >Python</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-2 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/java.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >Java</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-3 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/cpp.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >++C</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-4 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/js.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >JavaScript</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-5 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/matlab.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >Matlab</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-3 mb-lg-0">
+            <div class="language__box language__box-6 position-relative">
+              <div
+                class="h-100 d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="image__language-box">
+                  <img src="./assets/images/swift.png" alt="" />
+                </div>
+                <div>
+                  <span class="text-secondary d-block mt-4 fs-3 font-se"
+                    >Swift</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Programming Languages -->
+
+      <!-- Hot Product -->
+      <div class="container-fluid container-md product__hot-container">
+        <div
+          class="header__container-title d-flex justify-content-between align-items-center mb-5"
+        >
+          <div class="d-flex gap-3 justify-content-center align-items-center">
+            <div
+              class="bg-gradient-main-site rounded-circle d-flex justify-content-center align-items-center icon__header-container"
+            >
+              <img src="./assets/images/hot.png" alt="" />
+            </div>
+            <div class="text-light">
+              <h5 class="font-bo fs-3 header__container-title-sm">
+                محصولات داغ
+              </h5>
+              <span class="font-li fs-4 header__container-title-sm"
+                >Hot Products</span
+              >
+            </div>
+          </div>
+          <div>
+            <a href="#" class="d-flex justify-content-center gap-2">
+              <span class="text-light fs-3 header__container-title-sm"
+                >مشاهده همه</span
+              >
+              <i class="bi bi-arrow-left text-light"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3 mb-lg-0">
+            <div class="box_hot_product p-3 position-relative">
+              <div class="image_hot_product">
+                <img src="./assets/images/image 5.png" class="w-100" alt="" />
+                <div
+                  class="position-absolute d-flex flex-row-reverse justify-content-center align-items-center gap-5"
+                >
+                  <div
+                    class="heart_icon_box_hot_product bg_blur rounded-circle d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/images/heart.png" alt="" />
+                  </div>
+                  <div
+                    class="text_time_box_hot_product bg_blur font-bo-en d-flex rounded-pill justify-content-center align-items-center text-light gap-3"
+                  >
+                    <span>8s</span>
+                    <span>34m</span>
+                    <span>2h</span>
+                  </div>
+                </div>
+              </div>
+              <div class="caption_box_hot_product text-light">
+                <div class="d-flex flex-column justify-content-start mt-4">
+                  <h2 class="mb-0 font-se mb-2">
+                    دوره رایگان آموزش سیمولینک متلب
+                  </h2>
+                  <p class="font mb-0 text-secondary mb-4">مدرس: رضاشیرالی</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-4"
+                >
+                  <span class="d-block font-me">قیمت:</span>
+                  <div class="d-f justify-content-center align-items-center">
+                    <span class="me-2">رایگان</span>
+                    <img src="./assets/images/money.png" alt="" />
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="bg-gradient-main-site text-light p-4 font-bo d-flex justify-content-between align-items-center"
+                  >افزودن به سبد خرید
+                  <img src="./assets/images/shoppingcart.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3 mb-lg-0">
+            <div class="box_hot_product p-3 position-relative">
+              <div class="image_hot_product">
+                <img src="./assets/images/img2.png" class="w-100" alt="" />
+                <div
+                  class="position-absolute d-flex flex-row-reverse justify-content-center align-items-center gap-5"
+                >
+                  <div
+                    class="heart_icon_box_hot_product bg_blur rounded-circle d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/images/heart.png" alt="" />
+                  </div>
+                  <div
+                    class="text_time_box_hot_product bg_blur font-bo-en d-flex rounded-pill justify-content-center align-items-center text-light gap-3"
+                  >
+                    <span>8s</span>
+                    <span>34m</span>
+                    <span>2h</span>
+                  </div>
+                </div>
+              </div>
+              <div class="caption_box_hot_product text-light">
+                <div class="d-flex flex-column justify-content-start mt-4">
+                  <h2 class="mb-0 font-se mb-2">
+                    دوره رایگان آموزش کاربردی متلب
+                  </h2>
+                  <p class="font mb-0 text-secondary mb-4">مدرس: حسین یزدانی</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-4"
+                >
+                  <span class="d-block font-me">قیمت:</span>
+                  <div class="d-f justify-content-center align-items-center">
+                    <span class="me-2">رایگان</span>
+                    <img src="./assets/images/money.png" alt="" />
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="bg-gradient-main-site text-light p-4 font-bo d-flex justify-content-between align-items-center"
+                  >افزودن به سبد خرید
+                  <img src="./assets/images/shoppingcart.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3 mb-lg-0">
+            <div class="box_hot_product p-3 position-relative">
+              <div class="image_hot_product">
+                <img src="./assets/images/img3.png" class="w-100" alt="" />
+                <div
+                  class="position-absolute d-flex flex-row-reverse justify-content-center align-items-center gap-5"
+                >
+                  <div
+                    class="heart_icon_box_hot_product bg_blur rounded-circle d-flex justify-content-center align-items-center"
+                  >
+                    <img src="./assets/images/heart.png" alt="" />
+                  </div>
+                  <div
+                    class="text_time_box_hot_product bg_blur font-bo-en d-flex rounded-pill justify-content-center align-items-center text-light gap-3"
+                  >
+                    <span>8s</span>
+                    <span>34m</span>
+                    <span>2h</span>
+                  </div>
+                </div>
+              </div>
+              <div class="caption_box_hot_product text-light">
+                <div class="d-flex flex-column justify-content-start mt-4">
+                  <h2 class="mb-0 font-se mb-2">
+                    دوره جامع یادگیری عمیق با پایتون
+                  </h2>
+                  <p class="font mb-0 text-secondary mb-4">مدرس: زینب چاجی</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-4"
+                >
+                  <span class="d-block font-me">قیمت:</span>
+                  <div class="d-f justify-content-center align-items-center">
+                    <span class="me-2">299000 تومان</span>
+                    <img src="./assets/images/money.png" alt="" />
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="bg-gradient-main-site text-light p-4 font-bo d-flex justify-content-between align-items-center"
+                  >افزودن به سبد خرید
+                  <img src="./assets/images/shoppingcart.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hot Product -->
+
+      <!-- Property  -->
+      <div class="container-fluid container-md property_container">
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 mb-lg-0 position-relative"
+          >
+            <div
+              class="icon_box_property position-absolute d-flex justify-content-center align-items-center"
+            >
+              <img src="./assets/images/Group 92.png" alt="" />
+            </div>
+            <div
+              class="box_property box_property_1 text-light d-flex flex-column justify-content-center text-start px-3 pt-5"
+            >
+              <h4 class="fs-2 mb-4 font-bo">کاربری و پروژه‌محور</h4>
+              <p class="font-li fs-4 lh-lg mb-0">
+                طراحی و پیاده‌سازی پروژه‌های عملی کوچک و بزرگ، مانند پیش‌بینی
+                بازار سهام، تشخیص چهره، طبقه‌بندی تصاویر، پردازش زبان طبیعی
+                (NLP) و روباتیک.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 mb-lg-0 position-relative"
+          >
+            <div
+              class="icon_box_property position-absolute d-flex justify-content-center align-items-center"
+            >
+              <img src="./assets/images/securityuser.png" alt="" />
+            </div>
+            <div
+              class="box_property box_property_2 text-light d-flex flex-column justify-content-center text-start px-3 pt-5"
+            >
+              <h4 class="fs-2 mb-4 font-bo">به روز بودن و نوآوری در آموزش</h4>
+              <p class="font-li fs-4 lh-lg mb-0">
+                آشنایی با جدیدترین تحقیقات و نوآوری‌ها در زمینه هوش مصنوعی.
+                مطالعه و تحلیل مقالات برجسته در حوزه هوش مصنوعی و بحث در مورد
+                روش‌های جدید و نتایج آن‌ها.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-4 mb-lg-0 position-relative"
+          >
+            <div
+              class="icon_box_property position-absolute d-flex justify-content-center align-items-center"
+            >
+              <img src="./assets/images/callcalling.png" alt="" />
+            </div>
+            <div
+              class="box_property box_property_3 text-light d-flex flex-column justify-content-center text-start px-3 pt-5"
+            >
+              <h4 class="fs-2 mb-4 font-bo">پشتیبانی</h4>
+              <p class="font-li fs-4 lh-lg mb-0">
+                تیم پشتیبانی ما متشکل از کارشناسانی است که با تجربه و دانش عمیق
+                خود در زمینه‌های مختلف، آماده پاسخگویی به سوالات و رفع مشکلات
+                شما هستند. با ما تماس بگیرید.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Property -->
+
+      <!-- Free Education -->
+      <div
+        class="container-fluid position-relative free_education_container_overflow"
+      >
+        <div class="container-fluid container-md free_education_container pb-5">
+          <div
+            class="header__container-title d-flex justify-content-between align-items-center"
+          >
+            <div class="d-flex gap-3 justify-content-center align-items-center">
+              <div
+                class="bg-gradient-main-site rounded-circle d-flex justify-content-center align-items-center icon__header-container"
+              >
+                <img src="./assets/images/star1.png" alt="" />
+              </div>
+              <div class="text-light">
+                <h5 class="font-bo fs-3 header__container-title-sm">
+                  آموزش های رایگان
+                </h5>
+                <span class="font-li fs-4 header__container-title-sm"
+                  >Free Education</span
+                >
+              </div>
+            </div>
+            <div>
+              <a href="#" class="d-flex justify-content-center gap-2">
+                <span class="text-light fs-3 header__container-title-sm"
+                  >مشاهده همه</span
+                >
+                <i class="bi bi-arrow-left text-light"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="box_free_education">
+                <div class="image_box_free_education text-center">
+                  <img src="./assets/images/image 6.png" alt="" />
+                </div>
+                <div
+                  class="caption_box_free_education text-light px-5 font-bo mt-4"
+                >
+                  <h3 class="caption_box_free_education_title">
+                    کاهش انواع نویز در تصاویر در پایتون
+                  </h3>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-4"
+                  >
+                    <div class="time_box_free_education d-flex gap-3">
+                      <i class="bi bi-calendar4-week text-primary"></i>
+                      <span class="d-block">24</span>
+                      <span class="d-block">دی</span>
+                      <span class="d-block">1402</span>
+                    </div>
+                    <span class="d-block">
+                      مدرس:فریادی
+                      <img
+                        src="./assets/images/money.png"
+                        class="ms-3 d-none d-xl-inline-flex"
+                        alt=""
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="box_free_education">
+                <div class="image_box_free_education text-center">
+                  <img src="./assets/images/wolf.png" alt="" />
+                </div>
+                <div
+                  class="caption_box_free_education text-light px-5 font-bo mt-4"
+                >
+                  <h3>تشخیص عنبیه چشم در پایتون</h3>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-4"
+                  >
+                    <div class="time_box_free_education d-flex gap-3">
+                      <i class="bi bi-calendar4-week text-primary"></i>
+                      <span class="d-block">10</span>
+                      <span class="d-block">اسفند</span>
+                      <span class="d-block">1402</span>
+                    </div>
+                    <span class="d-block">
+                      مدرس: غلامی
+                      <img
+                        src="./assets/images/money.png"
+                        class="ms-3 d-none d-xl-inline-flex"
+                        alt=""
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="box_free_education">
+                <div class="image_box_free_education text-center">
+                  <img src="./assets/images/cow.png" alt="" />
+                </div>
+                <div
+                  class="caption_box_free_education text-light px-5 font-bo mt-4"
+                >
+                  <h3>تشخیص رنگ در پایتون</h3>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-4"
+                  >
+                    <div class="time_box_free_education d-flex gap-3">
+                      <i class="bi bi-calendar4-week text-primary"></i>
+                      <span class="d-block">10</span>
+                      <span class="d-block">اسفند</span>
+                      <span class="d-block">1402</span>
+                    </div>
+                    <span class="d-block time_box_free_education_teacher_font">
+                      مدرس:سجاد زارع
+                      <img
+                        src="./assets/images/money.png"
+                        class="ms-3 d-none d-xl-inline-flex"
+                        alt=""
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ellipse_3 rounded-circle position-absolute z-n1"></div>
+      </div>
+      <!-- Free Education -->
+
+      <!-- teachers -->
+      <div class="container-fluid container-md mt-5">
+        <div
+          class="header__container-title d-flex justify-content-between align-items-center mb-5"
+        >
+          <div class="d-flex gap-3 justify-content-center align-items-center">
+            <div
+              class="bg-gradient-main-site rounded-circle d-flex justify-content-center align-items-center icon__header-container"
+            >
+              <img src="./assets/images/Vector.png" alt="" />
+            </div>
+            <div class="text-light">
+              <h5 class="font-bo fs-3 header__container-title-sm">
+                مدرسین برتر
+              </h5>
+              <span class="font-li fs-4 header__container-title-sm"
+                >Top Teachers</span
+              >
+            </div>
+          </div>
+          <div>
+            <a href="#" class="d-flex justify-content-center gap-2">
+              <span class="text-light fs-3 header__container-title-sm"
+                >مشاهده همه</span
+              >
+              <i class="bi bi-arrow-left text-light"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">RezaShirali</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>14 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img src="./assets/images/Group 112.png" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">Javad Gholami</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>7 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img src="./assets/images/Group 113.png" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">Amirhossein Hoshmand</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>16 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img src="./assets/images/Group 114.png" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">NargesAsghari</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>14 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img src="./assets/images/Group 115.png" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">MahsaNaderi</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>14 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img src="./assets/images/116.png" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div
+              class="box_top_teachers d-flex justify-content-center align-items-center p-4 gap-4"
+            >
+              <div class="info_box_top_teachers text-light text-end w-75">
+                <h5 class="font-bo fs-3 m-0">SajadZare</h5>
+                <div class="my-3">
+                  <img src="./assets/images/Group 99.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                  <img src="./assets/images/star2.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="text_time_info_box_top_teachers"
+                    >مدت زمان تدریس:</span
+                  >
+                  <span>20 ساعت</span>
+                </div>
+              </div>
+              <div class="image_top_teachears">
+                <img
+                  src="./assets/images/Group 117.png.png"
+                  class="w-100"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- teachers -->
+
+      <!-- News_Letters -->
+      <div class="container-fluid container-md mt-5">
+        <div class="section_news_letters overflow-hidden position-relative p-3">
+          <div
+            class="cover_bg_news_letters text-light d-flex flex-column justify-content-center align-items-center w-100 h-100"
+          >
+            <h5 class="fs-1 font-bo mb-3">عضویت در خبرنامه</h5>
+            <p class="fs-4 font-li text-center">
+              به جامعه AiRezvan بپیوندید تا در جریان آخرین اخبار، ویژگی‌ها و
+              نکات مربوط به این حوزه قرار بگیرید.
+            </p>
+            <form action="" class="w-75">
+              <div
+                class="input-group input-group-lg w-100 mt-5 input_news_letters"
+              >
+                <input
+                  type="text"
+                  class="form-control text-secondary border-0 py-3 fs-3"
+                  placeholder="ایمیل خود را وارد کنید"
+                />
+                <button
+                  class="input-group-text bg_07101D text-light border-0 py-3 fs-2 px-5"
+                >
+                  ارسال
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- News_Letters -->
+    </main>
+    <!-- Main -->
+
+    <!-- Footer -->
+    <footer class="p-5 overflow-hidden position-relative">
+      <div class="container-fluid container-md">
+        <div class="row z-3 position-relative">
+          <div class="col-12 col-lg-3">
+            <ul class="list-unstyled">
+              <li>
+                <h4
+                  class="text-light text-center text-lg-start fs-2 font-bo mb-4"
+                >
+                  AiRezvan
+                </h4>
+              </li>
+              <li
+                class="d-flex justify-content-center justify-content-lg-start align-items-center"
+              >
+                <p
+                  class="text-light font-me text-center text-lg-start fs-5 lh-lg container_text_part_one_footer"
+                >
+                  هدف ما آموزش هوش مصنوعی با استفاده از پایتون و متلب می باشد تا
+                  بتوانیم موارد کاربردی آن را به شما عزیزان آموزش دهیم.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-6 col-lg-3 order-5 order-lg-0 text-center text-lg-start"
+          >
+            <ul class="list-unstyled">
+              <li>
+                <h4 class="text-light fs-4 font-bo mb-4">دسترسی سریع</h4>
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-inline"
+                  >شرایط استفاده از خدمات</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-inline"
+                  >سوالات متداول</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-lg-inline"
+                  >درباره ما</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-6 col-lg-3 order-5 order-lg-0 text-center text-lg-start"
+          >
+            <ul class="list-unstyled">
+              <li>
+                <h4 class="text-light fs-4 font-bo mb-4">حساب من</h4>
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-inline"
+                  >پروفایل</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-inline"
+                  >دوره های شما</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light font-li fs-5 mb-3 d-inline"
+                  >علاقه مندی ها</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 order-1 order-lg-0">
+            <ul class="list-unstyled my-5 my-lg-0">
+              <li>
+                <h4
+                  class="text-light fs-4 text-center text-lg-start font-bo mb-4"
+                >
+                  به ما بپیوندید
+                </h4>
+              </li>
+              <li
+                class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 my-5 my-lg-0"
+              >
+                <a href="#">
+                  <img src="./assets/images/Group 135.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="./assets/images/Group 134.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="./assets/images/Group 133.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="./assets/images/Group 132.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="ellipse_4 position-absolute z-1 rounded-circle d-none d-lg-block"
+        ></div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>
